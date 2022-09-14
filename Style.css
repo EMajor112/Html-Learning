@@ -1,0 +1,14 @@
+body{
+    background-image: url(img/moroccan-flower.png);
+}
+
+.head {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif ;
+    font-variant: small-caps;
+}
+
+.paraf {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
