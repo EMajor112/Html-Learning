@@ -1,14 +1,78 @@
 body{
-    background-image: url(img/moroccan-flower.png);
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img/anderson-w-rangel.jpg);
+    color: #444;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
 }
 
 .head {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif ;
-    font-variant: small-caps;
+    padding: 20px;
+    padding-bottom: 10px;
 }
 
-.paraf {
+.head .judul {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.head a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.head a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.head a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 290px;
+    background-image: url(img/fotis-fotopoulos.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -10px;
+}
+
+.content p {
+    font-size: 14px;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 5px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
 }
